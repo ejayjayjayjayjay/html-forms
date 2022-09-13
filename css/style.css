@@ -8,6 +8,11 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+fieldset{
+    border: 0;
+    padding: 2rem 0;
+}
+
 h1,p{
     margin: 1em auto;
     text-align: center;
