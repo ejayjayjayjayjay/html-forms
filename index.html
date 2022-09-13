@@ -17,24 +17,31 @@
             <label>Enter your first name: <input type="text" required /></label>
             <label>Enter your last name: <input type="text" required /></label>
             <label>Enter your email: <input type="email" required /></label>
-            <label>Enter your password: <input type="password" pattern="[a-z0-5]{8,}" required /></label>
+            <label>Enter your password:
+                <input type="password" pattern="[a-z0-5]{8,}" required /></label>
         </fieldset>
         <fieldset>
-            <label> <input type="radio" name="account-type" /> Personal account</label>
-            <label> <input type="radio" name="account-type" /> Business account</label>
-            <label> <input type="checkbox" required> I accept the <a href="#">terms and conditions</a></label>
+            <label>
+                <input type="radio" name="account-type" /> Personal account</label>
+            <label>
+                <input type="radio" name="account-type" /> Business account</label>
+            <label>
+                <input type="checkbox" required /> I accept the
+                <a href="#">terms and conditions</a></label>
         </fieldset>
         <fieldset>
             <label>Upload a profile picture: <input type="file" /></label>
-            <label>Input your age (years): <input type="number" min="13" max="120"></label>
-            <select>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-            </select>
-            
+            <label>Input your age (years): <input type="number" min="13" max="120" /></label>
+            <label>
+                How did you hear from us?
+                <select>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+            </label>
         </fieldset>
         <input type="submit" value="submit" />
     </form>
