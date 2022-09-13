@@ -17,7 +17,8 @@
             <label>Enter your first name: <input type="text" name="firstName" required /></label>
             <label>Enter your last name: <input type="text" name="lastName" required /></label>
             <label>Enter your email: <input type="email" name="email" required /></label>
-            <label>Enter your password: <input type="password" name="password" pattern="[a-z0-5]{8,}" required /></label>
+            <label>Enter your password: <input type="password" name="password" pattern="[a-z0-5]{8,}"
+                    required /></label>
         </fieldset>
         <fieldset>
             <label>
@@ -25,12 +26,12 @@
             <label>
                 <input type="radio" name="account-type" /> Business account</label>
             <label>
-                <input type="checkbox" required /> I accept the
+                <input type="checkbox" name="termsConditions" required /> I accept the
                 <a href="#">terms and conditions</a></label>
         </fieldset>
         <fieldset>
             <label>Upload a profile picture: <input type="file" name="fileUpload" /></label>
-            <label>Input your age (years): <input type="number" min="13" max="120" /></label>
+            <label>Input your age (years): <input type="number" min="13" max="120" name="age" /></label>
             <label>
                 How did you hear from us?
                 <select name="referrer">
