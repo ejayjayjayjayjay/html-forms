@@ -1,4 +1,4 @@
-body{
+body {
     height: 100vh;
     width: 100%;
     margin: 0;
@@ -8,38 +8,45 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-fieldset{
+fieldset {
     border: 0;
     padding: 2rem 0;
     border-bottom: 3px solid #3b3b4f;
 }
 
-fieldset:last-of-type{
+fieldset:last-of-type {
     border-bottom: none;
 }
 
-input, textarea, select{
+input,
+textarea,
+select {
     width: 100%;
     margin: 10px 0 0;
 }
 
-h1,p{
+h1,
+p {
     margin: 1em auto;
     text-align: center;
 }
 
-form{
+form {
     margin: 0 auto;
     max-width: 500px;
     min-width: 300px;
     width: 60vw;
 }
 
-label{
+label {
     display: block;
     margin: 0.5rem 0;
 }
 
-textarea{
+textarea {
     color: green;
+}
+
+.inline {
+    background-color: orangered;
 }
