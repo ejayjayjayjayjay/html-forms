@@ -48,5 +48,6 @@ textarea {
 }
 
 .inline {
-    background-color: orangered;
+    width: unset;
+    /* background-color: orangered; */
 }
