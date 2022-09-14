@@ -69,5 +69,6 @@ textarea::placeholder{
 input[type="submit"]{
     display: block;
     width: 60%;
-    margin: 0 auto;
+    margin: 0 auto; /*em is related to parent element*/
+    font-size: 1.1rem; /*rem is related to root element*/
 }
