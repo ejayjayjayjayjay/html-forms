@@ -71,4 +71,8 @@ input[type="submit"]{
     width: 60%;
     margin: 0 auto; /*em is related to parent element*/
     font-size: 1.1rem; /*rem is related to root element*/
+    background-color: green;
+    color: white;
+    min-width: 300px;
+    margin: 1em auto;
 }
