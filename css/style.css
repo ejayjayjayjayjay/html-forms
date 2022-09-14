@@ -61,3 +61,12 @@ textarea {
     vertical-align: middle;
     /* background-color: orangered; */
 }
+
+textarea::placeholder{
+    color: green;
+}
+
+input[type="submit"]{
+    display: block;
+    width: 60%;
+}
